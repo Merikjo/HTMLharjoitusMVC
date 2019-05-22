@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+
+<link href="~/Content/Site.css" rel="stylesheet" />
+
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<body>
+    <form class="form-signin">
+        <div class="text-center mb-4">
+            <img width="72" height="72" class="mb-4" alt="" src="/docs/4.3/assets/brand/bootstrap-solid.svg">
+            <h1 class="h3 mb-3 font-weight-normal">Floating labels</h1>
+            <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p>
+        </div>
+        <div class="form-label-group">
+            <input class="form-control" id="inputEmail" autofocus="" required="" type="email" placeholder="Email address">
+            <label for="inputEmail">Email address</label>
+        </div>
+        <div class="form-label-group">
+            <input class="form-control" id="inputPassword" required="" type="password" placeholder="Password">
+            <label for="inputPassword">Password</label>
+        </div>
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted text-center">© 2017-2019</p>
+    </form>
+
+</body>
